@@ -1,0 +1,21 @@
+{
+  "name": "socialentertainbe",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "vercel dev",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["phelan"],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "serverless-http": "^3.2.0"
+  }
+}
